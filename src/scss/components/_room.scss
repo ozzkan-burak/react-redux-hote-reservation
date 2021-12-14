@@ -1,0 +1,65 @@
+.room {
+  padding: 10px;
+  &-img {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.room-type-name{
+  font-family: 'Montserrat', ;
+  padding: 15px 0;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 15px
+}
+
+.features {
+  border: 1px solid $border-color;
+  padding: 10px;
+  border-radius: 5px;
+  label {
+    padding: 10px;
+    .price {
+      font-weight : 600;
+    }
+  }
+
+  .detail{
+    display: flex;
+    span {
+      padding: 0 10px;
+      &:nth-child(1) {
+        padding-left: 0px
+      }
+    }
+
+  }
+}
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+
+[type=radio]:checked + img {
+  outline: 2px solid $primary_color;
+}
+
+.price {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.price_img{
+  width: 100%;
+  height: auto;
+}

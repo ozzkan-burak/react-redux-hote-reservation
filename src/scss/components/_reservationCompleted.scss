@@ -1,0 +1,81 @@
+.reservation-completed-container{
+  margin-top: 40px;
+  &__header{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h5{
+      font-family:'Montserrat', ;
+      margin-bottom: 10px;
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+    }
+    &-icon{
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $secondary-color;
+      font-size: 40px
+    }
+    &-content {
+      display: flex;
+      flex:1;
+      justify-content: center;
+      text-align: center;
+      font: {
+        size: 14px;
+        family: 'Montserrat', ;
+      }
+    }
+    &-buttons {
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Montserrat', ;
+      button {
+        height: 35px;
+      }
+    }
+
+  }
+  &__content{
+    .row {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      > div {
+        background-color: $white-color;
+        padding: 15px;
+        border-radius: 5px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 10px
+      }
+    }
+    .preview {
+      > .row {
+        background-color: transparent;
+        > span {
+          background-color: $white-color;
+          padding: 15px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:nth-child(odd) {
+            border-radius: 5px 0 0 5px;
+          }
+          &:nth-child(even) {
+            border-radius: 0 5px 5px 0;
+          }
+        }
+      }
+    }
+  }
+}

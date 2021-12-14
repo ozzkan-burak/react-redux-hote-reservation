@@ -1,0 +1,61 @@
+.credit-card {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(2,102,250,1) 100%) !important;
+}
+
+.credit-card-container{
+  display: flex;
+  //flex-direction: column;
+  //@debug: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-box{
+  border-color: transparent !important;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 30px !important;
+  form {
+   > .flex-wrapper{
+     display: flex;
+     flex-wrap: wrap;
+     .flex-wrapper{
+       display: flex;
+       justify-content: space-between;
+     }
+     > div {
+       flex: 1;
+       > select {
+         width: 46%;
+         height: 35px;
+         text-indent: 10px;
+       }
+
+     }
+   }
+  }
+  input {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+    height: 35px;
+    text-indent: 10px;
+  }
+  select {
+    width: 25%;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+  }
+}
+.fix-new{
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,20 @@
+@import "./utils/font";
+@import "./utils/var";
+@import "~bootstrap/scss/bootstrap";
+@import "./utils/index";
+@import "./utils/reboot";
+@import "./components/header";
+@import "./components/button";
+@import "./components/reservationProgressBar";
+@import "./components/choose";
+@import "./components/reservationSelector";
+@import "./components/selectBox";
+@import "./components/reservation";
+@import "./components/datePicker";
+@import "./components/roomFeatures";
+@import "./components/room";
+@import "./components/creditCard";
+@import "./components/payment";
+@import "./components/personSelect";
+@import "./components/reservationCompleted";
+

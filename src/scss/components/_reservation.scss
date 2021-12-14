@@ -1,0 +1,17 @@
+.reservation-save-button-container, .room-save-button-container {
+  background-color: $grey-color;
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  padding: 0px 15px !important;
+  display: flex;
+  align-items: center;
+  
+}
+
+.reservation-save-button-container {
+ justify-content: flex-end; 
+}
+.room-save-button-container{
+  justify-content: space-between;
+}

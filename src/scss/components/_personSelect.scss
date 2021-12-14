@@ -1,0 +1,14 @@
+.person-selector-container {
+  > div{
+    &:nth-child(1){
+      padding-right: 10px !important;
+    }
+    &:nth-child(2){
+      padding-left: 10px !important;
+    }
+    label{
+      margin-bottom: 5px
+    }
+  }
+  
+}

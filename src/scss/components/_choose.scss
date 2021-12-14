@@ -1,0 +1,45 @@
+.icon-container{
+  max-width: 70px !important;
+ 
+}
+.choose-item{
+  max-width: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  span {
+    margin-top:5px;
+    font-size: .5rem;
+    line-height: normal;
+    text-align: center;
+    height: 7px;
+    display: block;
+  }
+}
+
+.icon {
+  border-radius: 50%;
+  border: 1px solid $border-color;
+  background-color: $white-color;
+  border-color: $border-color;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    font-size: 1.2rem;
+    color: $grey-color-passive;
+  }
+
+  &.active {
+    border: 1px solid $aborder-color-active;
+    svg {
+
+      color: $primary-color;
+    }
+  }
+}
